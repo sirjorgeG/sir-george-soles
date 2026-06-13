@@ -1,20 +1,17 @@
-
-fetch('products.json')
-.then(r=>r.json())
-.then(products=>{
- let html='';
- products.forEach(p=>{
-  html+=`<div class="card">
-  <img src="${p.image}" alt="">
-  <h3>${p.name}</h3>
-  <p class="price">£${p.price}</p>
-  <a class="btn" target="_blank"
-  href="https://wa.me/447713609082?text=I'm interested in ${encodeURIComponent(p.name)}">
-  Enquire
-  </a></div>`;
- });
- const p=document.getElementById('products');
- const f=document.getElementById('featured-products');
- if(p) p.innerHTML=html;
- if(f) f.innerHTML=html;
-});
+[
+  {
+    "name":"Nike Air More Uptempo",
+    "price":"89.99",
+    "image":"20260612_193524.jpg"
+  },
+  {
+    "name":"Fila Disruptor Yellow",
+    "price":"79.99",
+    "image":"20260612_210659.jpg"
+  },
+  {
+    "name":"Premium Trainer",
+    "price":"99.99",
+    "image":"20260612_210703.jpg"
+  }
+]
