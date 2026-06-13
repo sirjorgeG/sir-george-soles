@@ -1,5 +1,5 @@
 
-fetch('data/products.json')
+fetch('products.json')
 .then(r=>r.json())
 .then(products=>{
  let html='';
