@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Nike Air More Uptempo",
+    "price": "89.99",
+    "image": "images/products/trainer1.jpg"
+  },
+  {
+    "name": "Fila Trainer",
+    "price": "79.99",
+    "image": "images/products/trainer2.jpg"
+  },
+  {
+    "name": "Premium Sneaker",
+    "price": "99.99",
+    "image": "images/products/trainer3.jpg"
+  }
+]
